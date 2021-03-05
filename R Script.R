@@ -16,6 +16,12 @@ toc_depth: '3'
 ---
   
   
+## 1. Case Introduction
+The Food and Beverage Dataset for this case was provided by Dattabot. The data consist of detailed transactions of several outlets from December 2017 to the middle of February 2018. Time series study is used to processes numerical data with certain time intervals. Prediction of future values based on the past data in time series analysis is named forecasting. For this case, forecasting was used to investigate the number of visitors (customers) to help the business owners on justifying business decisions in 2018.
+
+## 2. Data Preprocessing
+
+### 2.1 Loading Libraries
 library(lubridate) # for date
 library(dplyr) # for data wrangling
 library(forecast) # time series library
